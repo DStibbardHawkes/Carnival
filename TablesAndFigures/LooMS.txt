@@ -1,0 +1,21 @@
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Thu Dec 16 17:12:20 2021
+\begin{table}[ht]
+\centering
+\begingroup\small
+\begin{tabular}{lrrr}
+  \hline
+Definition & ELPD Difference & SE Difference & Weights \\ 
+  \hline
+0 + Condition + (0 + Condition | GameType) + (0 + Condition | Sex) + (0 + Condition | Age) & 0.00 & 0.00 & 0.83 \\ 
+  0 + Condition + (0 + Condition | GameType) + (0 + Condition | Sex) & -1.62 & 2.35 & 0.17 \\ 
+  0 + Condition + (0 + Condition | GameType) + (0 + Condition | Age) & -57.82 & 10.34 & 0.00 \\ 
+  0 + Condition + (0 + Condition | GameType) & -61.83 & 10.97 & 0.00 \\ 
+  0 + GameType & -554.95 & 26.11 & 0.00 \\ 
+  1 & -560.79 & 25.94 & 0.00 \\ 
+   \hline
+\end{tabular}
+\endgroup
+\caption{Leave-one-out model selection results including expected log-predictive density differences, standard errors and Akaike weights. Left side model definitions provided in BRMs syntax} 
+\label{Tab:LooMS}
+\end{table}
